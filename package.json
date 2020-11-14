@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for serving octocats images every  day according to my dress code",
   "main": "App.js",
+  "bin": {
+    "octoday": "App.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   },
