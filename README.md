@@ -12,8 +12,9 @@
 
 # 
 > This is a simple code for serving octocats images every  day according to my dress code
-
+<p align=center>
 [![NPM](https://nodei.co/npm/octoday.png)](https://npmjs.org/package/octoday)
+</p>
 
 # Documentation
 
