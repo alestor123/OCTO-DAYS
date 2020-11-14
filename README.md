@@ -11,3 +11,46 @@
 
 # 
 > This is a simple code for serving octocats images every  day according to my dress code
+
+# Documentation
+
+# Quick use
+
+``npx octodays``
+
+# Installation
+
+``npm i octodays -g ``
+
+# Usage
+
+``octodays <port number> ``
+
+# Example
+``octodays 3000``
+
+# Env
+
+## Creating Env
+``touch .env``
+
+# Limit 
+
+> You can set limit in env file 
+
+# Env Example
+
+## Usage
+```
+PORT=<Port>
+```
+## Example
+
+
+```
+PORT=3000
+```
+# Custom Octocats
+[Create Custom Octocats](https://myoctocat.com/)
+
+## Save 7 of them in the octets folder
