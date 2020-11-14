@@ -3,10 +3,17 @@ require('dotenv').config()
 var express = require('express'),
 app = express(),
 path = require('path'),
+pck = require('./package.json'),  
 favicon = require('express-favicon'),
-port = process.env.PORT || process.argv[2] || 3000;
+argv = process.argv[2],
+port = process.env.PORT || argv || 3000;
 app.use(express.json());
 app.use(favicon(path.join(__dirname, 'assets/icon/icon.png')))
+if(argv== '-v' || '--version'){
+    console.log( `${pck.version}`)
+  process.exit(1);
+  }
+
 app.get('/', (req, res) => {
     res.json({'info':'This is the octodays'})
 })
