@@ -2,8 +2,8 @@
 require('dotenv').config()
 var express = require('express'),
 app = express(),
-path = require('path')
-favicon = require('serve-favicon'),
+path = require('path'),
+favicon = require('express-favicon'),
 port = process.env.PORT || process.argv[2] || 3000;
 app.use(express.json());
 app.use(favicon(path.join(__dirname, 'assets/icon/icon.png')))
