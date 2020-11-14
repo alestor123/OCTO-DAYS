@@ -1,0 +1,23 @@
+{
+  "name": "octodays",
+  "version": "1.0.0",
+  "description": "This is a simple code for serving octocats images every  day according to my dress code",
+  "main": "App.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/OCTO-DAYS.git"
+  },
+  "author": "Alestor Aldous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alestor123/OCTO-DAYS/issues"
+  },
+  "homepage": "https://github.com/alestor123/OCTO-DAYS#readme"
+}
