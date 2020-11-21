@@ -45,3 +45,8 @@ app.get('/octodex', (req, res) => {
     var day = new Date().getDay()
     res.contentType('image/png').header('Cache-Control', 'no-cache,max-age=600').sendFile(path.resolve(path.resolve(__dirname,`assets/octets/${day}.png`)));
 })
+app.get('/random', (req, res) => {
+  var day = Math.floor(Math.random() * 7);
+  res.contentType('image/png').header('Cache-Control', 'no-cache,max-age=600').sendFile(path.resolve(path.resolve(__dirname,`assets/octets/${day}.png`)));
+})
+
